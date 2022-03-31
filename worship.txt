@@ -1,0 +1,38 @@
+//ADMIN//
+http://localhost:5000/api/admin/login
+
+http://localhost:5000/api/admin/add-product
+
+http://localhost:5000/api/admin/view-product
+
+http://localhost:5000/api/admin/delete-product--->()
+
+http://localhost:5000/api/admin/Edit-product
+
+http://localhost:5000/api/admin/view-orderList
+
+http://localhost:5000/api/admin/Priest-list(for approving)
+
+http://localhost:5000/api/admin/File
+========================================================================================
+//PRIEST//
+http://localhost:5000/api/Priest/Registration
+
+http://localhost:5000/api/Priest/Login
+
+http://localhost:5000/api/Priest/update
+========================================================================================
+//USER//
+Post-->http://localhost:5000/api/user/register(name,password,email,mobile)
+
+Get-->http://localhost:5000/api/user/login(email,password)
+=========================================================================================
+Agarbat-622b2230b1589fcc3fc5610f  (id)
+
+Ful-bati-622b23a0b1589fcc3fc56111  (id)
+
+Diya-622b23efb1589fcc3fc56113  
+
+Chunari-622b244db1589fcc3fc56115
+
+Shank-622b2504b1589fcc3fc56117

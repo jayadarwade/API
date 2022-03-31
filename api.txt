@@ -1,0 +1,49 @@
+//PRODUCT//
+
+Post--> http://localhost:3000/api/product/add---->(name,image)
+
+Get-->  http://localhost:3000/api/product/list--->(all data of category)
+
+Post-->http://localhost:3000/api/product/list/62283f5b0f068fddf57cc979--->(id)
+
+Post-->http://localhost:3000/api/product/update/622842330f068fddf57cc986--->(_id)
+
+delete-->http://localhost:3000/api/product/delete/6228420b0f068fddf57cc984--->(_id)
+=========================================================================================
+//User//
+
+Post-->http://localhost:3000/api/user/register---->(name,email,password,mobile,age)
+
+Post--->http://localhost:3000/api/user/login---->(email,password)
+=========================================================================================
+//Admin//
+
+post-->http://localhost:3000/api/admin/singup--->(email,password,name)
+
+Post-->http://localhost:3000/api/admin/signin--->(email,password)
+=========================================================================================
+//Category//
+
+Post--> http://localhost:3000/api/category/add---->(name,image)
+
+Get-->  http://localhost:3000/api/category/list--->(all data of category)
+
+Post-->http://localhost:3000/api/category/update--->(id,name,image)
+
+delete-->http://localhost:3000/api/category/delete/6228420b0f068fddf57cc984--->(_id)
+=========================================================================================
+//CART//
+
+Post-->http://localhost:3000/api/card/add---->(id,id)
+
+Get-->http://localhost:3000/api/card/list---->()
+
+Delete-->http://localhost:3000/api/card/delete/6228a63f698512eca7079a47----->(_id)
+
+Get-->http://localhost:3000/api/card/view/62282ac6684ea1f10b51e00d----->(id.user)
+
+Delete-->http://localhost:3000/api/card/remove/6229b21960fb2f1/622841d20c980--->(_id.cart,_id.product)
+=========================================================================================
+
+
+

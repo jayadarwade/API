@@ -1,0 +1,73 @@
+22.What is mongodb ? What are advantage of mongodb
+23.What is difference between SQL and NoSQL database
+24.What is document in mongodb?
+25.What is collection in mongodb
+26.What is mongo shell
+
+22)What is mongodb ? What are advantage of mongodb
+Ans->
+MongoDB is an open-source document-oriented database that is designed to store a large scale of data and also allows you to work with that data very efficiently. It is categorized under the NoSQL (Not only SQL) database because the storage and retrieval of data in the MongoDB are not in the form of tables. 
+
+The MongoDB database is developed and managed by MongoDB.Inc under SSPL(Server Side Public License) and initially released in February 2009. It also provides official driver support for all the popular languages like C, C++, C#, and .Net, Go, Java, Node.js, Perl, PHP, Python, Motor, Ruby, Scala, Swift, Mongoid. So, that you can create an application using any of these languages. Nowadays there are so many companies that used MongoDB like Facebook, Nokia, eBay, Adobe, Google, etc. to store their large amount of data. 
+============================================================================================================
+23).What is difference between SQL and NoSQL database
+Ans->
+1)Databases are categorized as Relational Database Management System (RDBMS). 
+  NoSQL databases are categorized as Non-relational or distributed database system.
+	
+2)SQL databases have fixed or static or predefined schema. 	
+  NoSQL databases have dynamic schema.
+
+3)SQL databases display data in form of tables so it is known as table-based database. 
+  NoSQL databases display data as collection of key-value pair, documents, graph databases or wide-column
+  stores.
+	
+4)SQL databases are vertically scalable. 	
+  NoSQL databases are horizontally scalable.
+
+5)SQL databases are not best suited for hierarchical data storage. 
+  NoSQL databases are best suited for hierarchical data storage.
+
+6)MySQL, Oracle, Sqlite, PostgreSQL and MS-SQL etc. are the example of SQL database.
+  MongoDB, BigTable, Redis, RavenDB, Cassandra, Hbase, Neo4j, CouchDB etc. are the example of nosql database
+==============================================================================================================  
+25).What is collection in mongodb
+Ans->
+Collections are just like tables in relational databases, they also store data, but in the form of documents. A single database is allowed to store multiple collections.
+Syntex:
+      db.createCollection('user')         db.collection_name.insertOne({..})
+      
+==============================================================================================================      
+24).What is document in mongodb?
+Ans->In MongoDB, the data records are stored as BSON documents.document is created using field-value pairs or key-value pairs and the value of the field can be of any BSON type.The maximum size of the BSON document is
+16MB.
+Syntax:  
+{ 
+field1: value1
+field2: value2
+....
+fieldN: valueN
+}
+ As we know that MongoDB databases are schemaless. So, it is not necessary in a collection that the schema of one document is similar to another document. Or in other words, a single collection contains different types of documents like as shown in the below example where mystudentData collection contain two different types of documents: pick
+quiry->
+db.users.insertOne({'name':'user','age':20})
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("623c469053ac4fe79f559320")
+}
+When you create a collection MongoDB automatically creates a unique index on the _id field.
+==============================================================================================================
+26)What is mongo shell
+Ans->
+The MongoDB Shell, mongosh, is a fully functional JavaScript and Node.js 14.x REPL environment for interacting with MongoDB deployments. You can use the MongoDB Shell to test queries and operations directly with your database.
+              pick
+===============================================================================================================    
+
+
+
+
+
+
+
+
+ 
